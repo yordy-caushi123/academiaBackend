@@ -68,11 +68,14 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
+   			<groupId>org.postgresql</groupId>
+  			<artifactId>postgresql</artifactId>
+  			<scope>runtime</scope>
 		</dependency>
+
 
 		<dependency>
 			<groupId>commons-codec</groupId>
